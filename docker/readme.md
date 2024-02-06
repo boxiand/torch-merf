@@ -24,6 +24,6 @@
 
 5. Run the container
 
-`docker run --gpus all --rm -it -v ${host workspace}:workspace nerfstudio`
+`docker run --gpus all --rm -it -v ${host workspace}:/workspace nerfstudio`
 
 
